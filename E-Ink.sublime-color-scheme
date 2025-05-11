@@ -1,0 +1,97 @@
+{
+	"name": "E-Ink Light",
+	"variables": {
+		"color_1": "#CCCCCC",
+		"color_2": "#C2C2C2",
+		"color_3": "#B8B8B8",
+		"color_4": "#AEAEAE",
+		"color_5": "#A4A4A4",
+		"color_6": "#9A9A9A",
+		"color_7": "#909090",
+		"color_8": "#868686",
+		"color_9": "#7C7C7C",
+		"color_10": "#727272",
+		"color_11": "#686868",
+		"color_12": "#5E5E5E",
+		"color_13": "#545454",
+		"color_14": "#4A4A4A",
+		"color_15": "#474747",
+		"color_16": "#333333"
+	},
+	"globals": {
+		"background": "var(color_1)",
+		"foreground": "var(color_12)",
+		"line_highlight": "var(color_2)",
+		"selection": "var(color_4)",
+		"selection_border": "var(color_4)",
+		"highlight": "var(color_6)",
+		"find_highlight": "var(color_13)",
+		"find_highlight_foreground": "var(color_1)",
+		"rulers": "var(color_2)",
+		"fold_marker": "var(color_2)"
+	},
+	"rules": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"foreground": "color(var(color_7))",
+			"font_style": "italic"
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"foreground": "var(color_11)"
+		},
+		{
+			"name": "Constant",
+			"scope": "constant",
+			"foreground": "var(color_16)",
+			"font_style": "bold"
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"foreground": "var(color_16)",
+			"font_style": "bold"
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"foreground": "var(color_12)",
+			"font_style": "italic"
+		},
+		{
+			"name": "Markup Heading",
+			"scope": "markup.heading",
+			"foreground": "var(color_16)",
+			"font_style": "bold"
+		},
+		{
+			"name": "Markup Bold",
+			"scope": "markup.bold",
+			"foreground": "var(color_16)",
+			"font_style": "bold"
+		},
+		{
+			"name": "Markup Italic",
+			"scope": "markup.italic",
+			"font_style": "italic"
+		},
+		{
+			"name": "Markup Underline",
+			"scope": "markup.underline",
+			"foreground": "var(color_8)",
+			"font_style": "underline italic"
+		},
+		{
+			"name": "Markup Quote",
+			"scope": "markup.quote",
+			"foreground": "var(color_8)"
+		},
+		{
+			"name": "Markup Raw",
+			"scope": "markup.raw",
+			"foreground": "var(color_8)"
+		}
+	]
+}
