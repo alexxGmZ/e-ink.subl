@@ -57,8 +57,7 @@
 		{
 			"name": "Keyword",
 			"scope": "keyword",
-			"foreground": "var(color_12)",
-			"font_style": "italic"
+			"foreground": "var(color_12)"
 		},
 		{
 			"name": "Markup Heading",
@@ -92,6 +91,74 @@
 			"name": "Markup Raw",
 			"scope": "markup.raw",
 			"foreground": "var(color_8)"
+		},
+		{
+			"name": "Entity Name Tag",
+			"scope": "entity.name.tag",
+			"foreground": "var(color_10)",
+			"font_style": "bold"
+		},
+		{
+			"name": "Entity Other Attribute Name",
+			"scope": "entity.other.attribute-name",
+			"foreground": "var(color_14)",
+			"font_style": "bold"
+		},
+		{
+			"name": "Entity Name Function",
+			"scope": "entity.name.function",
+			"foreground": "var(color_16)",
+			"font_style": "bold"
+		},
+		{
+			"name": "Punctuation Section Group Begin",
+			"scope": "punctuation.section.group.begin",
+			"font_style": "bold"
+		},
+		{
+			"name": "Punctuation Section Group End",
+			"scope": "punctuation.section.group.end",
+			"font_style": "bold"
+		},
+		{
+			"name": "Punctuation Section Brackets Begin",
+			"scope": "punctuation.section.brackets.begin",
+			"font_style": "bold"
+		},
+		{
+			"name": "Punctuation Section Brackets End",
+			"scope": "punctuation.section.brackets.end",
+			"font_style": "bold"
+		},
+		{
+			"name": "Punctuation Definition Generic Begin",
+			"scope": "punctuation.definition.generic.begin",
+			"foreground": "var(color_8)"
+		},
+		{
+			"name": "Punctuation Definition Generic end",
+			"scope": "punctuation.definition.generic.end",
+			"foreground": "var(color_8)"
+		},
+		{
+			"name": "Punctuation Section Block Begin",
+			"scope": "punctuation.section.block.begin",
+			"font_style": "bold"
+		},
+		{
+			"name": "Punctuation Section Block End",
+			"scope": "punctuation.section.block.end",
+			"font_style": "bold"
+		},
+		{
+			"name": "Punctuation Section Braces Begin",
+			"scope": "punctuation.section.braces.begin",
+			"font_style": "bold"
+		},
+		{
+			"name": "Punctuation Section Braces End",
+			"scope": "punctuation.section.braces.end",
+			"font_style": "bold"
 		}
 	]
 }
